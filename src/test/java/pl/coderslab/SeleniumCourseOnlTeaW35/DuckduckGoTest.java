@@ -26,7 +26,7 @@ class DuckDuckGoTest {
         searchButton.click();
         driver.findElement(By.cssSelector("div#links article h2"));
         for (int i = 0; i <3; i++)
-            WebElement searchResult = elements.get|(i)
+            WebElement searchResult = elements.get|(i);
 
         System.out.println();
 //        driver.close();
