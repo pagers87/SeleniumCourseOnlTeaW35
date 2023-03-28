@@ -23,7 +23,7 @@ class DuckDuckGoTest {
         WebElement searchInput = driver.findElement(By.id("search_form_input_homepage"));
         searchInput.sendKeys("W pustyni i w puszczy");
         WebElement searchButton = driver.findElement(By.id("search_button_homepage"));
-        //searchButton.click();
+        searchButton.click();
 //        driver.close();
     }
 }
